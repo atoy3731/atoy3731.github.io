@@ -1,0 +1,128 @@
+apiVersion: v1
+entries:
+  mariadb:
+  - annotations:
+      category: Database
+    apiVersion: v2
+    appVersion: 10.5.9
+    created: "2021-06-17T09:23:14.362714-04:00"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    description: Fast, reliable, scalable, and easy to use open-source relational
+      database system. MariaDB Server is intended for mission-critical, heavy-load
+      production systems as well as for embedding into mass-deployed software. Highly
+      available MariaDB cluster.
+    digest: 273710765a5bfdbbdcc523b5068438d417c77ad041d32a0e889aa9ac678ad858
+    home: https://github.com/bitnami/charts/tree/master/bitnami/mariadb
+    icon: https://bitnami.com/assets/stacks/mariadb/img/mariadb-stack-220x234.png
+    keywords:
+    - mariadb
+    - mysql
+    - database
+    - sql
+    - prometheus
+    maintainers:
+    - email: containers@bitnami.com
+      name: Bitnami
+    name: mariadb
+    sources:
+    - https://github.com/bitnami/bitnami-docker-mariadb
+    - https://github.com/prometheus/mysqld_exporter
+    - https://mariadb.org
+    urls:
+    - https://atoy3731.github.io/gitea-dependencies/docs/mariadb-9.3.6.tgz
+    version: 9.3.6
+  memcached:
+  - annotations:
+      category: Infrastructure
+    apiVersion: v2
+    appVersion: 1.6.9
+    created: "2021-06-17T09:23:14.364959-04:00"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    description: Chart for Memcached
+    digest: 3d59f9c855108f43f5948e2915a95d3603c9b4bb1c33a25e0bc237a95c906d1f
+    home: https://github.com/bitnami/charts/tree/master/bitnami/memcached
+    icon: https://bitnami.com/assets/stacks/memcached/img/memcached-stack-220x234.png
+    keywords:
+    - memcached
+    - cache
+    maintainers:
+    - email: containers@bitnami.com
+      name: Bitnami
+    name: memcached
+    sources:
+    - https://github.com/bitnami/bitnami-docker-memcached
+    - http://memcached.org/
+    urls:
+    - https://atoy3731.github.io/gitea-dependencies/docs/memcached-5.9.0.tgz
+    version: 5.9.0
+  mysql:
+  - annotations:
+      category: Database
+    apiVersion: v1
+    appVersion: 8.0.21
+    created: "2021-06-17T09:23:14.366887-04:00"
+    description: Chart to create a Highly available MySQL cluster
+    digest: ede5dbcb4084f83a35d65e67b51e3365fcd827fc87d64c49f4c860a76ca15d43
+    home: https://github.com/bitnami/charts/tree/master/bitnami/mysql
+    icon: https://bitnami.com/assets/stacks/mysql/img/mysql-stack-220x234.png
+    keywords:
+    - mysql
+    - database
+    - sql
+    - cluster
+    - high availablity
+    maintainers:
+    - email: containers@bitnami.com
+      name: Bitnami
+    name: mysql
+    sources:
+    - https://github.com/bitnami/bitnami-docker-mysql
+    - https://mysql.com
+    urls:
+    - https://atoy3731.github.io/gitea-dependencies/docs/mysql-6.14.10.tgz
+    version: 6.14.10
+  postgresql:
+  - annotations:
+      category: Database
+    apiVersion: v2
+    appVersion: 11.11.0
+    created: "2021-06-17T09:23:14.370641-04:00"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      version: 1.x.x
+    description: Chart for PostgreSQL, an object-relational database management system
+      (ORDBMS) with an emphasis on extensibility and on standards-compliance.
+    digest: e70eb92313ffe60873d20f32c1adc3ba9b5f6c80b79cdf49ed3bdb9e73f59694
+    home: https://github.com/bitnami/charts/tree/master/bitnami/postgresql
+    icon: https://bitnami.com/assets/stacks/postgresql/img/postgresql-stack-220x234.png
+    keywords:
+    - postgresql
+    - postgres
+    - database
+    - sql
+    - replication
+    - cluster
+    maintainers:
+    - email: containers@bitnami.com
+      name: Bitnami
+    - email: cedric@desaintmartin.fr
+      name: desaintmartin
+    name: postgresql
+    sources:
+    - https://github.com/bitnami/bitnami-docker-postgresql
+    - https://www.postgresql.org/
+    urls:
+    - https://atoy3731.github.io/gitea-dependencies/docs/postgresql-10.3.17.tgz
+    version: 10.3.17
+generated: "2021-06-17T09:23:14.358947-04:00"
