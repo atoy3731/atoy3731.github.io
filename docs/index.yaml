@@ -5,7 +5,7 @@ entries:
       category: Database
     apiVersion: v2
     appVersion: 10.5.9
-    created: "2021-06-17T09:23:14.362714-04:00"
+    created: "2021-06-17T09:25:51.185201-04:00"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -34,14 +34,14 @@ entries:
     - https://github.com/prometheus/mysqld_exporter
     - https://mariadb.org
     urls:
-    - https://atoy3731.github.io/gitea-dependencies/docs/mariadb-9.3.6.tgz
+    - https://atoy3731.github.io/mariadb-9.3.6.tgz
     version: 9.3.6
   memcached:
   - annotations:
       category: Infrastructure
     apiVersion: v2
     appVersion: 1.6.9
-    created: "2021-06-17T09:23:14.364959-04:00"
+    created: "2021-06-17T09:25:51.187558-04:00"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -63,14 +63,14 @@ entries:
     - https://github.com/bitnami/bitnami-docker-memcached
     - http://memcached.org/
     urls:
-    - https://atoy3731.github.io/gitea-dependencies/docs/memcached-5.9.0.tgz
+    - https://atoy3731.github.io/memcached-5.9.0.tgz
     version: 5.9.0
   mysql:
   - annotations:
       category: Database
     apiVersion: v1
     appVersion: 8.0.21
-    created: "2021-06-17T09:23:14.366887-04:00"
+    created: "2021-06-17T09:25:51.189406-04:00"
     description: Chart to create a Highly available MySQL cluster
     digest: ede5dbcb4084f83a35d65e67b51e3365fcd827fc87d64c49f4c860a76ca15d43
     home: https://github.com/bitnami/charts/tree/master/bitnami/mysql
@@ -89,14 +89,14 @@ entries:
     - https://github.com/bitnami/bitnami-docker-mysql
     - https://mysql.com
     urls:
-    - https://atoy3731.github.io/gitea-dependencies/docs/mysql-6.14.10.tgz
+    - https://atoy3731.github.io/mysql-6.14.10.tgz
     version: 6.14.10
   postgresql:
   - annotations:
       category: Database
     apiVersion: v2
     appVersion: 11.11.0
-    created: "2021-06-17T09:23:14.370641-04:00"
+    created: "2021-06-17T09:25:51.19303-04:00"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -123,6 +123,6 @@ entries:
     - https://github.com/bitnami/bitnami-docker-postgresql
     - https://www.postgresql.org/
     urls:
-    - https://atoy3731.github.io/gitea-dependencies/docs/postgresql-10.3.17.tgz
+    - https://atoy3731.github.io/postgresql-10.3.17.tgz
     version: 10.3.17
-generated: "2021-06-17T09:23:14.358947-04:00"
+generated: "2021-06-17T09:25:51.181702-04:00"
